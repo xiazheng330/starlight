@@ -6,21 +6,53 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'CrazyAigc',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				// github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '1. 文章精选',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
 				},
+				
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '2. AI入门教程',
+					items:[
+						{label: '入门经典必读', slug: 'guides/essential_readings'}
+					]
+				},
+				{
+					label: '3. 提示词(Prompt)',
+					items:[
+						{label: '目录: OpenAI 官方指南', slug: 'prompt/openai'}
+					]
+				},
+				{
+					label: '4. 智能体(Agent)',
+					items:[
+						{label: '0.学习路径: 成为基于Agent的创造者', slug: 'agent/0' }
+					]
+				},
+				{
+					label: '5. AI绘画',
+					items:[
+						{label: '0. 入门看这里', slug: 'ai_picture/0' }
+					]
+				},
+				{
+					label: '6. AI视频',
+					items:[
+						{label: '0.教程', slug: 'ai_video/0' }
+					]
+				},
+				{
+					label: '7. AI音乐',
+					items:[
+						{label: '0.教程', slug: 'ai_music/0' }
+					]
 				},
 			],
 		}),
