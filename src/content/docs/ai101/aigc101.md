@@ -1,3 +1,7 @@
+---
+title: AIGC 基础讲解：从入门到未来
+description: AIGC基础入门了解
+---
 # AIGC 基础讲解：从入门到未来
 ## 一、什么是 AIGC？
 AIGC 是 Artificial Intelligence Generated Content 的缩写，中文称为“人工智能生成内容”。简单来说，AIGC 指的是利用人工智能技术生成各种形式的内容，比如文字、图片、音频、视频等。
